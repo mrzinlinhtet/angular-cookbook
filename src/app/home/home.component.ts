@@ -8,5 +8,9 @@ import { Component } from '@angular/core';
 export class HomeComponent {
   myStr : string = 'Hello';
   myNum : number = 22;
+  bol : boolean = true;
 
+  myFunc () {
+    this.bol = !this.bol;
+  }
 }
