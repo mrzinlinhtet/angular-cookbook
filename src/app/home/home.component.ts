@@ -6,11 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
-  myStr : string = 'Hello';
-  myNum : number = 22;
-  bol : boolean = true;
+  data = "ONe"
 
-  myFunc () {
-    this.bol = !this.bol;
+  addData() {
+      alert(this.data);
   }
 }

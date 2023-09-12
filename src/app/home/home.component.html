@@ -1,8 +1,4 @@
-<p>home works!</p>
-<p>{{myStr}}</p>
-<p>{{myNum}}</p>
-
-<!--<button [disabled]="bol">Click me</button>-->
-<button (click)="myFunc()">Click me</button>
-<input type="text" name="" id="" [value]="myStr">
-<h1 [ngClass]="{redColor:bol}">Hello Babe</h1>
+<div>
+  <input type="text" [(ngModel)]="data">
+  <button (click)="addData()">Add Data</button>
+</div>
