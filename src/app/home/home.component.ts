@@ -6,9 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
-  data = "ONe"
-
-  addData() {
-      alert(this.data);
-  }
+  // data = "ONe"
+  //
+  // addData() {
+  //     alert(this.data);
+  // }
 }

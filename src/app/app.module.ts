@@ -7,13 +7,19 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { NaviComponent } from './navi/navi.component';
+import { BMRouting} from "./sysgen/BMRouting";
+import { BmserviceService } from "./sysgen/bmservice.service";
+import { TestoneComponent } from './testone/testone.component';
+import { TesttwoComponent } from './testtwo/testtwo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     AboutComponent,
-    NaviComponent
+    NaviComponent,
+    TestoneComponent,
+    TesttwoComponent
   ],
   imports: [
     BrowserModule,
@@ -34,7 +40,7 @@ import { NaviComponent } from './navi/navi.component';
     ])
 
   ],
-  providers: [],
+  providers: [BmserviceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

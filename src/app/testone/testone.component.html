@@ -1,0 +1,6 @@
+<input type="text" #input>
+<button (click)="addData(input.value)">Add data</button>
+
+<div>
+  <p *ngFor="let d of data" class="jasmine-alert">{{d}}</p>
+</div>
